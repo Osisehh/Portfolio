@@ -5,84 +5,53 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "Supervised Machine Learning",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://coursera.org/share/0d1556520c6e458a2cc4ea5b757afb38",
   },
   {
-    title: "Cryptography",
+    title: "Advanced Learning Algorithms",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/8426ac94f2804b0275fae84b76227182",
+  },
+  {
+    title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/83093fd37becb237c36c4b971db520a5",
+  },
+  {
+    title: "Machine Learning Specialization",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/b8c7e04b852a9d298508737150620c1e",
+  },
+  {
+    title: "Python for Data Science & Machine Learning:",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "https://www.udemy.com/certificate/UC-879ec90b-4ad5-4087-9d05-f154bcaeae71/",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
-  },
-  {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
+    title: "The Complete Python Pro Bootcamp",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    moocLink: "https://www.udemy.com/share/103IHM3@rY2RtLMDuEznl3UufbO4g5nsVqxhDhLfCJIvW1AmaAq-V-Kj4HCZrgcOKaUAsJNpwA==/",
   },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+
 ];
 
 const experience = [
   {
-    img: "assets/images/education-page/c1.png",
+    img: "assets/images/pc1.jpg",
   },
   {
-    img: "assets/images/education-page/c2.jpg",
+    img: "assets/images/pc2.jpg",
   },
   {
-    img: "assets/images/education-page/c3.png",
+    img: "assets/images/pc3.jpg",
   },
   {
-    img: "assets/images/education-page/c4.png",
+    img: "assets/images/pc4.jpg",
   },
   {
-    img: "assets/images/education-page/c5.jpg",
+    img: "assets/images/pc5.jpg",
   },
 ];
 
@@ -134,7 +103,7 @@ const showCards = () => {
 document.addEventListener("DOMContentLoaded", showCards);
 
 /* Badges*/
-
+/*
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
@@ -167,7 +136,7 @@ const showCards1 = () => {
   );
   bagdes.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", showCards1);
+document.addEventListener("DOMContentLoaded", showCards1); */
 
 /* Timeline Section*/
 
