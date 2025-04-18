@@ -34,11 +34,11 @@ const projects = [
     Githublink: "https://github.com/Osisehh/Chat-with-PDF",
   },
   {
-    title: "Movie Recommendation System",
-    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
-    description: "Built using Tensorflow.",
+    title: "Gemini Language Translator",
+    cardImage: "assets/images/IMG_9143.png",
+    description: "Built using Gemini.",
     Previewlink: "",
-    Githublink: "https://github.com/Osisehh/Movie-Recommendation-System",
+    Githublink: "https://github.com/Osisehh/Gemini-Language-Translator",
   },
   {
     title: "Music Recommendation Engine",
